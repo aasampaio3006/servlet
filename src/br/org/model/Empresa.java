@@ -1,10 +1,19 @@
 package br.org.model;
 
+import java.util.Date;
+
 public class Empresa {
 	
 	private int id;
 	private String nome;
+	private Date dataAbertura = new Date();
 		
+	public Date getDataAbertura() {
+		return dataAbertura;
+	}
+	public void setDataAbertura(Date dataAbertura) {
+		this.dataAbertura = dataAbertura;
+	}
 	public int getId() {
 		return id;
 	}

@@ -1,4 +1,4 @@
-package br.org.model;
+package br.org.servlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -11,6 +11,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import br.org.model.Banco;
+import br.org.model.Empresa;
+
 /**
  * Servlet implementation class ListaEmpresaServlet
  */
@@ -18,7 +21,7 @@ import javax.servlet.http.HttpServletResponse;
 public class ListaEmpresaServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+	protected void service(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 
 		Banco banco = new Banco();

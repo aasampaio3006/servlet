@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 //nome da patch
-@WebServlet(urlPatterns = "/try")
+//@WebServlet(urlPatterns = "/try")
 public class TryServlet extends HttpServlet{
 	
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws IOException {

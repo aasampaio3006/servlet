@@ -15,5 +15,11 @@ Lista de Alunos: <br/>
     </c:forEach>
     </ul>
 
+<br/>
+Laço: <br/>
+    <c:forEach var="i" begin="1" end="10" step="2">
+       <li>${i}</li>
+     </c:forEach>
+
 </body>
 </html>
